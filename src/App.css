@@ -23,6 +23,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.resultItem{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +40,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.product-grid-container{
+  display: flex;
+  max-width: 1400;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-container{
+  flex:1 0 21%
 }
